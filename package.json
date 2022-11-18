@@ -6,20 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "element-plus": "^2.2.21",
     "element-resize-detector": "^1.2.4",
-    "vue": "^3.2.41"
+    "vue": "^3.2.41",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-vue": "^9.7.0",
-    "node-sass": "^8.0.0",
     "prettier": "^2.7.1",
+    "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "unplugin-auto-import": "^0.11.4",
     "unplugin-vue-components": "^0.22.9",
