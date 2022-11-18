@@ -12,6 +12,7 @@
   "dependencies": {
     "element-plus": "^2.2.21",
     "element-resize-detector": "^1.2.4",
+    "pinia": "^2.0.24",
     "vue": "^3.2.41",
     "vue-router": "4"
   },

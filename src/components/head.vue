@@ -1,8 +1,8 @@
 <script setup>
-  const props = defineProps({
-    title: String,
-  })
-  console.log(props)
+  import { headStore } from '@/store/head'
+  import { storeToRefs } from 'pinia'
+  const store = headStore()
+  const { title } = storeToRefs(store)
 </script>
 <template>
   <div class="head">

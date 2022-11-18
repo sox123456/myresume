@@ -1,10 +1,12 @@
 <script setup>
   import headVue from './components/head.vue'
+  import InfoEdit from './components/infoEdit.vue'
 </script>
 
 <template>
   <div>
-    <head-vue :title="'测试标题'"></head-vue>
+    <head-vue></head-vue>
+    <info-edit></info-edit>
   </div>
 </template>
 
